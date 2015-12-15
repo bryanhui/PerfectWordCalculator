@@ -8,12 +8,12 @@ public class PerfectWordCalculator{
         PerfectWordCalculator instance = new PerfectWordCalculator();
         Set<String> dictionary = instance.readDictionary("enable1.txt");
         System.out.println("Read dictionary with size: "+dictionary.size());
-        System.out.println("Test char score: "+instance.letterScore('a')+","+instance.letterScore('j'));
+        /*System.out.println("Test char score: "+instance.letterScore('a')+","+instance.letterScore('j'));
         System.out.println("Test char score: "+instance.letterScore('A')+","+instance.letterScore('J'));
-        System.out.println("Test word score: "+instance.wordScore("attitude"));
+        System.out.println("Test word score: "+instance.wordScore("attitude"));*/
         System.out.println("Perfect word list begins now:");
         
-        instance.printPerfectWords(dictionary, 101, 200);
+        instance.printPerfectWords(dictionary, 1, 100);
      }
      
      public void printPerfectWords(Set<String> dictionary, int begin, int end) {
