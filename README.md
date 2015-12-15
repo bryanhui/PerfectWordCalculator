@@ -1,4 +1,6 @@
 # PerfectWordCalculator
+Background
+
 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z is represented as:
 
 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26. 
@@ -20,6 +22,13 @@ But,
 A-T-T-I-T-U-D-E 
 
 1+20+20+9+20+21+4+5 = 100% 
+
+--
+Resources:
+
+Word list: https://dotnetperls-controls.googlecode.com/files/enable1.txt
+
+Online compiler: http://www.tutorialspoint.com/compile_java8_online.php
 
 --
 Example output:
